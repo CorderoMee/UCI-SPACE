@@ -22,4 +22,4 @@ def main(page: ft.Page):
     page.add(titulo, btn)
 
 # Ejecutar la app (modo escritorio por defecto)
-ft.app(target=main)
+ft.app(target=main, view=ft.WEB_BROWSER)
